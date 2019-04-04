@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A Simple Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="container">
+            <h2> A Simple Registration Form</h2>
+
+            <form class="form" method="post" action="" novalidate>
+
+                <div class="row col-xs-6">
+                    <label for="username">Username </label>
+                    <input type="text" id="username" placeholder="Bond007" required>
+                </div>
+                
+                <div class="row col-xs-6">
+                    <label for="password">Password </label>
+                    <input type="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                </div>
+                
+                <div class="row col-xs-6">
+                    <label for="retype">Retype Password </label>
+                    <input type="password" id="retype" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+                </div>
+                
+                <div class="row col-xs-6">
+                    <label for="age">Age </label>
+                    <input type="number" id="age" placeholder="0" required>
+                </div>
+
+                <div>
+                    <label for="Register"></label>
+                    <input type="submit" id="submit" value="Register" class="btn btn-primary">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
